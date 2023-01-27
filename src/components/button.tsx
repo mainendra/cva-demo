@@ -3,10 +3,10 @@ import { cva, VariantProps } from "class-variance-authority";
 const button = cva("rounded-md relative", {
   variants: {
     variant: {
-      default: "bg-white text-text shadow-button border border-gray-400",
+      default: "bg-white shadow-button border-gray-400",
       primary: "bg-primary text-white",
       destructive: "bg-destructive text-white",
-      monochrome: "bg-white text-text border border-gray-400",
+      monochrome: "bg-white text-text border-gray-400",
     },
     modifier: {
       outline:
